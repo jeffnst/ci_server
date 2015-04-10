@@ -47,7 +47,7 @@ $objConnect = mysql_connect("localhost","design2hou_api","roman015");
 			}
 			else 
 			{			
-				$this->loginF_response(401, "login request fails");			
+				$this->loginF_response(401, "Invalid email or password.");			
 			}
 		}
 		else 
