@@ -25,7 +25,7 @@ class index extends CI_Controller{
 		echo $password;
 		echo "<br>";
 		echo $ip; */
-$objConnect = mysql_connect("localhost","design2hou_api","roman015");
+	$objConnect = mysql_connect("localhost","design2hou_api","roman015");
 		
 	if ($objConnect){		
 		if (!empty($username) & !empty($password))
