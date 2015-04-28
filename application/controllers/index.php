@@ -19,12 +19,7 @@ class index extends CI_Controller{
 		$username = $this->input->post('username');
 		$password = md5($this->input->post('password'));
 		$ip = $this->input->post('ip');
-		
-		/* echo $username;
-		echo "<br>";
-		echo $password;
-		echo "<br>";
-		echo $ip; */
+			
 	$objConnect = mysql_connect("localhost","design2hou_api","roman015");
 		
 	if ($objConnect){		
